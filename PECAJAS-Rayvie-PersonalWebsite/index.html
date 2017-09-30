@@ -10,24 +10,48 @@
 
 <body>
 	<header>
-		<div class="title"><center><strong>Everything you need to know about</strong></center></div>
+		<div class="title">Everything you need to know about me:</div>
 	</header>
-	
-	<div class="image" id="priority">
-	  <img src="Pictures/name-bg.png" alt="" style="width: 1300px; height: 550px;"/>
-	  <a href="Rpage.html"><h2 class="R shake name">R</h2></a>
-	  <a href="Rpage.html"><h2 class="A shake name">A</h2></a>
-	  <a href="Rpage.html"><h2 class="Y shake name">Y</h2></a>
-	  <a href="Rpage.html"><h2 class="V shake name">V</h2></a>
-	  <a href="Rpage.html"><h2 class="I shake name">I</h2></a>
-	  <a href="Rpage.html"><h2 class="E shake name">E</h2></a>
-	  </div>
+	<button onclick="topFunction()" id="myBtn" title="title Go to top">Back to Top</button>
+	<script>
+	window.onscroll = function() {scrollFunction()};
 
-	<footer>
-		<div class="title"><center><strong>Just click on any letter to view more stuff!</strong></center></div>
-	</footer>
-	
+	function scrollFunction() {
+	    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	        document.getElementById("myBtn").style.display = "block";
+	    } else {
+	        document.getElementById("myBtn").style.display = "none";
+	    }
+	}
+
+	function topFunction() {
+	    document.body.scrollTop = 0;
+	    document.documentElement.scrollTop = 0;
+	}
+	</script>
+
+
+	<div id="priority">
+	 <p onclick="scrollWin()" class="shake rayvie">RAYVIE</p>
+		<script>
+		function scrollWin() {
+			var myVar = setInterval(myScroll, 10);
+			function myScroll(){
+		    window.scrollBy(0, 1);
+			}
+		}
+		</script>
+	 </div>
+	 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<div class="boxed">
+		<p class="title">I am a master at procrastinating!<br></p>
+		<p>
+		<img src="Pictures/procrastinate.gif" style="float:right;width:500px;height:281px;">
+		Assignments? Projects? Activities? Responsibilities? If I can do it later, I'll do it later. This is what is usually found in my mind during my daily life. I never do anything until its deadline. "Never put off until tomorrow which can be put off until next week" is one of my favorite motto. In fact, this very website was made right before its deadline though I started like weeks ago.</p>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
 		
-	
 </body>
 </html>
