@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<title>RayviePortfolio</title>
+	<link href="main.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="shake.css">
+
+</head>
+
+<body style="background-color: white">
+
+	<header>
+		<div class="navbar">
+			<ul>
+			  <li><a href="index.html">Home</a></li>
+			  <li><a href="skills.html"> Skills</a></li>
+			  <li><a class="active" href="contact.html">Contact</a></li>
+			  <li><a href="about.html">About</a></li>
+			</ul>
+		</div>
+		<br><br><br>
+	</header>
+
+
+
+	<button onclick="topFunction()" class="title" id="myBtn" title=" Go to top">Back to Top</button>
+		<script>
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+		        document.getElementById("myBtn").style.display = "block";
+		    } else {
+		        document.getElementById("myBtn").style.display = "none";
+		    }
+		}
+
+		function topFunction() {
+		    document.body.scrollTop = 0;
+		    document.documentElement.scrollTop = 0;
+		}
+		</script>
+
+	<div class="title" id="Home"><h3>Contact Me</h3></div>
+	<p id="contact">rapecajas333@gmail.com<br>rayvie.pecajas@yahoo.com</p>
+	<div class="title" id="Home"><h3>Follow Me</h3></div>
+	
+	<a href="https://www.facebook.com/rebe.enteni">
+		<center>	
+			<img src="Pictures/fb.png" style="width: 64px; height: 64px; margin-bottom: 10px;">
+		</center>
+	</a>
+	
+	<a href="https://www.twitter.com/rebe_enteni">
+		<center>
+			<img src="Pictures/twitter.png" style="width: 64px; height: 64px;">
+		</center>
+	</a>
+	<br>
+	<br>
+	
+		
+</body>
+</html>
