@@ -1,12 +1,8 @@
-
-.content {
-  margin: 5% 0 0 0%;
-}
-#priority a{
+#priority p{
 	color: #000;
 }
-#priority a:hover { 
-	color: #333;
+#priority p:hover { 
+	color: #111;
 }
 
 
@@ -14,7 +10,7 @@ img{
 display: block;
 height: 250px;
 width: 250px;
-border-radius: 50% 50% 50% 50%;
+z-index: -1;
 }
 h2.shake,
 .shake.inline {
@@ -36,7 +32,7 @@ h2.shake,
 .shake:hover,
 .shake:focus {
 	-webkit-animation-name: spaceboots;
-	-webkit-animation-duration: 0.8s;
+	-webkit-animation-duration: 1.5s;
 	-webkit-transform-origin:50% 50%;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
