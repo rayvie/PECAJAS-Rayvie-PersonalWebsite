@@ -36,6 +36,7 @@ p{
    width: 1250px;
    border-radius: 25px;
    left: 100px;
+   margin-left: 50px;
 }
 #myBtn {
   display: none;
@@ -110,7 +111,9 @@ li a:hover:not(.active) {
    color: black
 }
 
-.html {width: 90%; background-color: #4CAF00;}
-.css {width: 80%; background-color: #2196F3;}
-.js {width: 65%; background-color: #f44336;}
-.php {width: 60%; background-color: #808080;}
+.proc {width: 90%; background-color: #4CAF00;}
+.stud {width: 40%; background-color: #2196F3;}
+.game {width: 65%; background-color: #f44336;}
+.awkw {width: 80%; background-color: #dfdc16;}
+.slep {width: 75%; background-color: #ab0fd9;}
+.brea {width: 100%; background-color: #808080;}
