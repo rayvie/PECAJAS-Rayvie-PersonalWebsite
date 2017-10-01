@@ -5,6 +5,14 @@
    text-align: center;
    text-shadow: -5px 5px #404040;
 }
+.navbar{
+   font-family: "Moon Flower";
+   font-size: 40px;
+   font-weight: bold;
+   text-align: center;
+   text-shadow: -2px 2px #888;
+   z-index: 98;
+}
 
 .title{
 	font-family: "Moon Flower";
@@ -46,4 +54,40 @@ p{
 
 #myBtn:hover {
   background-color: #555;
+}
+body {
+   margin:0;
+}
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 99;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
 }
