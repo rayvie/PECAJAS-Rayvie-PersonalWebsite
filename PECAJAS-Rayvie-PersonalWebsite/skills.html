@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<title>RayviePortfolio</title>
+	<link href="main.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="shake.css">
+
+</head>
+
+<body style="background-color: white">
+
+	<header>
+		<div class="navbar">
+			<ul>
+			  <li><a href="index.html">Home</a></li>
+			  <li><a class="active" href="skills.html">Skills</a></li>
+			  <li><a href="#contact">Contact</a></li>
+			  <li><a href="#about">About</a></li>
+			</ul>
+		</div>
+		<br><br><br>
+		<div class="title" id="Home"><h3>My Skills</h3></div>
+	</header>
+
+
+
+	<button onclick="topFunction()" class="title" id="myBtn" title=" Go to top">Back to Top</button>
+		<script>
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+		        document.getElementById("myBtn").style.display = "block";
+		    } else {
+		        document.getElementById("myBtn").style.display = "none";
+		    }
+		}
+
+		function topFunction() {
+		    document.body.scrollTop = 0;
+		    document.documentElement.scrollTop = 0;
+		}
+		</script>
+	<div class="title">
+		<p id="skill">HTML</p>
+		<div class="container">
+		  <div class="skills html">90%</div>
+		</div>
+
+		<p id="skill">CSS</p>
+		<div class="container">
+		  <div class="skills css">80%</div>
+		</div>
+
+		<p id="skill">JavaScript</p>
+		<div class="container">
+		  <div class="skills js">65%</div>
+		</div>
+
+		<p id="skill">PHP</p>
+		<div class="container">
+		  <div class="skills php">60%</div>
+		</div>
+		<br>
+	</div>
+	
+		
+</body>
+</html>
