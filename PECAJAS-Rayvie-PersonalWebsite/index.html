@@ -6,13 +6,14 @@
 	<title>RayviePortfolio</title>
 	<link href="main.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="shake.css">
+
 </head>
 
-<body>
+<body style="background-color: white">
 	<header>
 		<div class="title">Everything you need to know about me:</div>
 	</header>
-	<button onclick="topFunction()" id="myBtn" title="title Go to top">Back to Top</button>
+	<button onclick="topFunction()" class="title" id="myBtn" title=" Go to top">Back to Top</button>
 	<script>
 	window.onscroll = function() {scrollFunction()};
 
@@ -32,22 +33,26 @@
 
 
 	<div id="priority">
-	 <p onclick="scrollWin()" class="shake rayvie">RAYVIE</p>
+	 <p onclick="scrollWin()" class="shake" id="rayvie">RAYVIE</p>
 		<script>
 		function scrollWin() {
 			var myVar = setInterval(myScroll, 10);
 			function myScroll(){
-		    window.scrollBy(0, 1);
+		    window.scrollBy(0, 2);
+		    if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+	        clearTimeout(myVar);
+	    }
 			}
 		}
 		</script>
 	 </div>
-	 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	<div class="boxed">
 		<p class="title">I am a master at procrastinating!<br></p>
 		<p>
 		<img src="Pictures/procrastinate.gif" style="float:right;width:500px;height:281px;">
-		Assignments? Projects? Activities? Responsibilities? If I can do it later, I'll do it later. This is what is usually found in my mind during my daily life. I never do anything until its deadline. "Never put off until tomorrow which can be put off until next week" is one of my favorite motto. In fact, this very website was made right before its deadline though I started like weeks ago.</p>
+		Assignments? Projects? Activities? Responsibilities? If I can do it later, I'll do it later. This is what is usually found in my mind during my daily life. I never do anything until its deadline. "Never put off until tomorrow which can be put off until next week" is one of my favorite motto. In fact, this very website was made right before its deadline though I started like weeks ago.</p><br><br>
+	</div>
 	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
