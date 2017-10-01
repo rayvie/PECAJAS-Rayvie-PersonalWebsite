@@ -35,7 +35,7 @@ p{
    background: #000;
    width: 1250px;
    border-radius: 25px;
-   margin: 10px 0 0 0;
+   left: 100px;
 }
 #myBtn {
   display: none;
@@ -60,7 +60,6 @@ body {
 }
 
 ul {
-
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -91,3 +90,27 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
 }
+
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+  font-size: 30px;
+  text-shadow: 0px 2px #999;
+}
+#skill{
+   color: black
+}
+
+.html {width: 90%; background-color: #4CAF00;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}
