@@ -110,6 +110,15 @@ li a:hover:not(.active) {
 #skill{
    color: black
 }
+a{
+   text-align: center;
+}
+#contact{
+   color: black;
+   font-family: "Moon Flower";
+   font-size:40px;
+   font-weight: bold;
+}
 
 .proc {width: 90%; background-color: #4CAF00;}
 .stud {width: 40%; background-color: #2196F3;}
